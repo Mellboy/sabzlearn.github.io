@@ -1,0 +1,38 @@
+.presell--header--content
+{
+    position: relative;
+}
+.presell--header--span
+{
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--dark-color);
+
+}
+.presell--header--span::before
+{
+    content: "";
+    width: 0.3rem;
+    height: 2.4rem;
+    position: absolute;
+    right: -1rem;
+    top: -.5rem;
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    transform: rotate(8deg);
+}
+.presell--header--span::after
+{
+    content: "";
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    width: 100%;
+    max-width: 250px;
+    height: 60%;
+    background-color: rgba(210, 105, 30, 0.178);
+}

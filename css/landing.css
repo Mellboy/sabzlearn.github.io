@@ -1,0 +1,52 @@
+/*landing*/
+.landing
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.683)),url(../image/Jowhareh_galleries_6_poster_d3dd9308-6bb0-46c3-b19d-6e11a6eea95b.jpeg)center center no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 24rem;
+    color: var(--white-color);
+}
+.h1title
+{
+    font-size: 4.4rem;
+    padding-top: 3rem;
+}
+.h2title
+{
+    font-size: 2.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.search--landingclass
+{
+    position: relative;
+    padding-top: 1rem;
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none; 
+}
+.btn--search
+{
+    position: absolute;
+    top: 0rem;
+    left: 28.8rem;
+    background-color: var(--primary-color);
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 1rem;
+    border: none;
+}
+.btn--search:hover
+{
+    color: var(--white-color);
+    transition: all 200ms ease-in;
+}
+.landingsearchbar
+{
+    position: relative;
+}

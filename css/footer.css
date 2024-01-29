@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -21rem;
+    background: rgba(179, 175, 179, 0.58);
+    border-radius: 0.5rem;
+}
+.container-f {
+    min-height: 100%;
+    position: relative;
+}
+.tell,
+.address,
+.site,
+.site2
+{
+    margin-top: 2.5rem;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: var(--dark-color);
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

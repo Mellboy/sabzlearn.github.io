@@ -1,0 +1,37 @@
+.topbar
+{
+    color: var(--dark-color);
+    background-color: #f0f2f7;
+    padding: 2rem 0;
+}
+.topbar--content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.topbarul
+{
+    display: flex;
+}
+.top--left
+{
+    display: flex;
+    padding: 0 1rem;
+}
+.topbar--item--link
+{
+    padding: 0 1rem;
+    color: var(--dark-color);
+    font-size: 1.3rem;
+}
+.link--email,.link--phone
+{
+    padding: 0 1rem;
+    color: var(--dark-color);
+    font-size: 1.3rem; 
+}
+.Phoneicon,
+.emailicon
+{
+    color: var(--primary-color);
+}

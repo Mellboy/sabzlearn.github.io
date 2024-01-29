@@ -1,0 +1,18 @@
+.cl-33
+{
+    margin-top: 8rem;
+    margin: 9rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    position: relative;
+}
+.box--article
+{
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
